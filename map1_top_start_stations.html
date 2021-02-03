@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ee4a97480f2d4a0ea9fb45828d968ba5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ee4a97480f2d4a0ea9fb45828d968ba5" ></div>
+        
+</body>
+<script>    
+    
+            var map_ee4a97480f2d4a0ea9fb45828d968ba5 = L.map(
+                "map_ee4a97480f2d4a0ea9fb45828d968ba5",
+                {
+                    center: [37.79017938400919, -122.35478213765752],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f47e87fc4b9547e4bfded01e22598de2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var marker_b71d131b96c541ed8c4086ecd0170f38 = L.marker(
+                [37.795392, -122.394203],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_c97f078b7caf4173958676ffa9a323e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b71d131b96c541ed8c4086ecd0170f38.setIcon(icon_c97f078b7caf4173958676ffa9a323e5);
+        
+    
+        var popup_8329bb185f234348945004e27f1f8f0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91bc5d8dbb50422ca171b07509071277 = $(`<div id="html_91bc5d8dbb50422ca171b07509071277" style="width: 100.0%; height: 100.0%;">67991</div>`)[0];
+            popup_8329bb185f234348945004e27f1f8f0e.setContent(html_91bc5d8dbb50422ca171b07509071277);
+        
+
+        marker_b71d131b96c541ed8c4086ecd0170f38.bindPopup(popup_8329bb185f234348945004e27f1f8f0e)
+        ;
+
+        
+    
+    
+            marker_b71d131b96c541ed8c4086ecd0170f38.bindTooltip(
+                `<div>
+                     San Francisco Ferry Building (Harry Bridges Plaza)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_874871b4fb784bdd89f11550490428ce = L.marker(
+                [37.776639200000005, -122.3955263],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_7c55aeaecc704bc28b94d6e60a7ad167 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_874871b4fb784bdd89f11550490428ce.setIcon(icon_7c55aeaecc704bc28b94d6e60a7ad167);
+        
+    
+        var popup_0893ffc03e4d492a8bccae29827e452c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07752e8c0bda4ef3844d76bd21a68303 = $(`<div id="html_07752e8c0bda4ef3844d76bd21a68303" style="width: 100.0%; height: 100.0%;">66643</div>`)[0];
+            popup_0893ffc03e4d492a8bccae29827e452c.setContent(html_07752e8c0bda4ef3844d76bd21a68303);
+        
+
+        marker_874871b4fb784bdd89f11550490428ce.bindPopup(popup_0893ffc03e4d492a8bccae29827e452c)
+        ;
+
+        
+    
+    
+            marker_874871b4fb784bdd89f11550490428ce.bindTooltip(
+                `<div>
+                     San Francisco Caltrain Station 2  (Townsend St at 4th St)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9199e882b95046e193272ebff26fec44 = L.marker(
+                [37.776619000000004, -122.41738500000001],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_c86a5d7e47c5481d9eee61dbc33b6787 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9199e882b95046e193272ebff26fec44.setIcon(icon_c86a5d7e47c5481d9eee61dbc33b6787);
+        
+    
+        var popup_9b4fcd4ab5b14f5982125ee02242275f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc8abc22852449729e840d1a2221eab9 = $(`<div id="html_dc8abc22852449729e840d1a2221eab9" style="width: 100.0%; height: 100.0%;">64551</div>`)[0];
+            popup_9b4fcd4ab5b14f5982125ee02242275f.setContent(html_dc8abc22852449729e840d1a2221eab9);
+        
+
+        marker_9199e882b95046e193272ebff26fec44.bindPopup(popup_9b4fcd4ab5b14f5982125ee02242275f)
+        ;
+
+        
+    
+    
+            marker_9199e882b95046e193272ebff26fec44.bindTooltip(
+                `<div>
+                     Market St at 10th St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f18d00b40edf4cf28bf02632cf2ad9eb = L.marker(
+                [37.776598, -122.39528200000001],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_8460a7d788c645f888f35d24dcf61692 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f18d00b40edf4cf28bf02632cf2ad9eb.setIcon(icon_8460a7d788c645f888f35d24dcf61692);
+        
+    
+        var popup_c704dd4789c54adf8587b48d9c2d72e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3902b6bda5134323b9a1180026f65625 = $(`<div id="html_3902b6bda5134323b9a1180026f65625" style="width: 100.0%; height: 100.0%;">59937</div>`)[0];
+            popup_c704dd4789c54adf8587b48d9c2d72e3.setContent(html_3902b6bda5134323b9a1180026f65625);
+        
+
+        marker_f18d00b40edf4cf28bf02632cf2ad9eb.bindPopup(popup_c704dd4789c54adf8587b48d9c2d72e3)
+        ;
+
+        
+    
+    
+            marker_f18d00b40edf4cf28bf02632cf2ad9eb.bindTooltip(
+                `<div>
+                     San Francisco Caltrain (Townsend St at 4th St)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54ea9253e3264ac8b80cf68dce9cf6fb = L.marker(
+                [37.77588, -122.39317],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_49f7f02a1e844235b3c0eed0b468298e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_54ea9253e3264ac8b80cf68dce9cf6fb.setIcon(icon_49f7f02a1e844235b3c0eed0b468298e);
+        
+    
+        var popup_18271a714de94ec0a85a782f14fc85d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af9f578be8124edaadf72a6b3c5a4bfc = $(`<div id="html_af9f578be8124edaadf72a6b3c5a4bfc" style="width: 100.0%; height: 100.0%;">58722</div>`)[0];
+            popup_18271a714de94ec0a85a782f14fc85d3.setContent(html_af9f578be8124edaadf72a6b3c5a4bfc);
+        
+
+        marker_54ea9253e3264ac8b80cf68dce9cf6fb.bindPopup(popup_18271a714de94ec0a85a782f14fc85d3)
+        ;
+
+        
+    
+    
+            marker_54ea9253e3264ac8b80cf68dce9cf6fb.bindTooltip(
+                `<div>
+                     Berry St at 4th St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cad46457fa9e496eb4250ae378f719fd = L.marker(
+                [37.80477, -122.40323400000001],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_0e8cb1968aa742969a4ca872892b924c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cad46457fa9e496eb4250ae378f719fd.setIcon(icon_0e8cb1968aa742969a4ca872892b924c);
+        
+    
+        var popup_0e5677707dc94cbeb6681cf287279b1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_573b0cf6fa94455c9fa650a3ca68dca7 = $(`<div id="html_573b0cf6fa94455c9fa650a3ca68dca7" style="width: 100.0%; height: 100.0%;">57546</div>`)[0];
+            popup_0e5677707dc94cbeb6681cf287279b1e.setContent(html_573b0cf6fa94455c9fa650a3ca68dca7);
+        
+
+        marker_cad46457fa9e496eb4250ae378f719fd.bindPopup(popup_0e5677707dc94cbeb6681cf287279b1e)
+        ;
+
+        
+    
+    
+            marker_cad46457fa9e496eb4250ae378f719fd.bindTooltip(
+                `<div>
+                     The Embarcadero at Sansome St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d19a381f71a84e8094381358aa91a4d0 = L.marker(
+                [37.7896254, -122.400811],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_07b9612fc8404609b9112ac0e44d8921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d19a381f71a84e8094381358aa91a4d0.setIcon(icon_07b9612fc8404609b9112ac0e44d8921);
+        
+    
+        var popup_4dbcd8fa68b442dd88e7fdabb71d6faf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67e9ccb6919b4c4fa6b2ba093fa65dba = $(`<div id="html_67e9ccb6919b4c4fa6b2ba093fa65dba" style="width: 100.0%; height: 100.0%;">56920</div>`)[0];
+            popup_4dbcd8fa68b442dd88e7fdabb71d6faf.setContent(html_67e9ccb6919b4c4fa6b2ba093fa65dba);
+        
+
+        marker_d19a381f71a84e8094381358aa91a4d0.bindPopup(popup_4dbcd8fa68b442dd88e7fdabb71d6faf)
+        ;
+
+        
+    
+    
+            marker_d19a381f71a84e8094381358aa91a4d0.bindTooltip(
+                `<div>
+                     Montgomery St BART Station (Market St at 2nd St)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e08ff7ae5914c7fb2d22631e367e03f = L.marker(
+                [37.78637526861584, -122.40490436553955],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_cf7aa867ddf64565a4350b758e329225 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7e08ff7ae5914c7fb2d22631e367e03f.setIcon(icon_cf7aa867ddf64565a4350b758e329225);
+        
+    
+        var popup_82a250b1b491469ba9d4240858dabfd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f7639644cda4203a9514357341b7188 = $(`<div id="html_1f7639644cda4203a9514357341b7188" style="width: 100.0%; height: 100.0%;">54947</div>`)[0];
+            popup_82a250b1b491469ba9d4240858dabfd8.setContent(html_1f7639644cda4203a9514357341b7188);
+        
+
+        marker_7e08ff7ae5914c7fb2d22631e367e03f.bindPopup(popup_82a250b1b491469ba9d4240858dabfd8)
+        ;
+
+        
+    
+    
+            marker_7e08ff7ae5914c7fb2d22631e367e03f.bindTooltip(
+                `<div>
+                     Powell St BART Station (Market St at 4th St)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c77d1804303b4e7a832d9176ebdc89e1 = L.marker(
+                [37.794129999999996, -122.39443],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_927d08639ba849d89b07367629419468 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c77d1804303b4e7a832d9176ebdc89e1.setIcon(icon_927d08639ba849d89b07367629419468);
+        
+    
+        var popup_b490a0641aba49b7a622201182bbe7b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddc61014d71d4a659f47cb12fb022229 = $(`<div id="html_ddc61014d71d4a659f47cb12fb022229" style="width: 100.0%; height: 100.0%;">49017</div>`)[0];
+            popup_b490a0641aba49b7a622201182bbe7b2.setContent(html_ddc61014d71d4a659f47cb12fb022229);
+        
+
+        marker_c77d1804303b4e7a832d9176ebdc89e1.bindPopup(popup_b490a0641aba49b7a622201182bbe7b2)
+        ;
+
+        
+    
+    
+            marker_c77d1804303b4e7a832d9176ebdc89e1.bindTooltip(
+                `<div>
+                     Steuart St at Market St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b5a7869f44f414993db2132a192fd91 = L.marker(
+                [37.789756, -122.39464299999999],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_88a578d27455431aabc703e19a028278 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5b5a7869f44f414993db2132a192fd91.setIcon(icon_88a578d27455431aabc703e19a028278);
+        
+    
+        var popup_66048366243941889b5e3070dac4da41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0788b18d5d94b59ad297ab986e7a60f = $(`<div id="html_c0788b18d5d94b59ad297ab986e7a60f" style="width: 100.0%; height: 100.0%;">47053</div>`)[0];
+            popup_66048366243941889b5e3070dac4da41.setContent(html_c0788b18d5d94b59ad297ab986e7a60f);
+        
+
+        marker_5b5a7869f44f414993db2132a192fd91.bindPopup(popup_66048366243941889b5e3070dac4da41)
+        ;
+
+        
+    
+    
+            marker_5b5a7869f44f414993db2132a192fd91.bindTooltip(
+                `<div>
+                     Howard St at Beale St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1eb17355e6944948b80e1da47292ac76 = L.marker(
+                [37.78389935708493, -122.40844488143921],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_1315485520be401e8af680c72cbd63e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1eb17355e6944948b80e1da47292ac76.setIcon(icon_1315485520be401e8af680c72cbd63e4);
+        
+    
+        var popup_829905ed252b460fbff0990259cc08fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf60e40ed60d49dc94dcea12e915d565 = $(`<div id="html_cf60e40ed60d49dc94dcea12e915d565" style="width: 100.0%; height: 100.0%;">44717</div>`)[0];
+            popup_829905ed252b460fbff0990259cc08fb.setContent(html_cf60e40ed60d49dc94dcea12e915d565);
+        
+
+        marker_1eb17355e6944948b80e1da47292ac76.bindPopup(popup_829905ed252b460fbff0990259cc08fb)
+        ;
+
+        
+    
+    
+            marker_1eb17355e6944948b80e1da47292ac76.bindTooltip(
+                `<div>
+                     Powell St BART Station (Market St at 5th St)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0013866ec3854dcf9b6b23201b687e42 = L.marker(
+                [37.792251, -122.39708600000002],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_58c903dbaa144baab55dfa9da26f5a5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0013866ec3854dcf9b6b23201b687e42.setIcon(icon_58c903dbaa144baab55dfa9da26f5a5a);
+        
+    
+        var popup_7a806abd61334f1483c581ff722a800e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c60fa5f5a6347c392d724293a9fdfa9 = $(`<div id="html_1c60fa5f5a6347c392d724293a9fdfa9" style="width: 100.0%; height: 100.0%;">37898</div>`)[0];
+            popup_7a806abd61334f1483c581ff722a800e.setContent(html_1c60fa5f5a6347c392d724293a9fdfa9);
+        
+
+        marker_0013866ec3854dcf9b6b23201b687e42.bindPopup(popup_7a806abd61334f1483c581ff722a800e)
+        ;
+
+        
+    
+    
+            marker_0013866ec3854dcf9b6b23201b687e42.bindTooltip(
+                `<div>
+                     Embarcadero BART Station (Beale St at Market St)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0840a337e034be4812e56355fbe49d5 = L.marker(
+                [37.77874161153677, -122.39274082710837],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_273c79e1802643b1a4a1e8db2000b2bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d0840a337e034be4812e56355fbe49d5.setIcon(icon_273c79e1802643b1a4a1e8db2000b2bf);
+        
+    
+        var popup_4b342c7e336d4efca3a060888428a19f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5605789f5b1487bb635b3416ca11c99 = $(`<div id="html_a5605789f5b1487bb635b3416ca11c99" style="width: 100.0%; height: 100.0%;">36266</div>`)[0];
+            popup_4b342c7e336d4efca3a060888428a19f.setContent(html_a5605789f5b1487bb635b3416ca11c99);
+        
+
+        marker_d0840a337e034be4812e56355fbe49d5.bindPopup(popup_4b342c7e336d4efca3a060888428a19f)
+        ;
+
+        
+    
+    
+            marker_d0840a337e034be4812e56355fbe49d5.bindTooltip(
+                `<div>
+                     3rd St at Townsend St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90ddbceb1a4f444f83bc75546fc78453 = L.marker(
+                [37.780526, -122.39028799999998],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_5ca3fab6327045749f3e90fdff2a0b2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_90ddbceb1a4f444f83bc75546fc78453.setIcon(icon_5ca3fab6327045749f3e90fdff2a0b2f);
+        
+    
+        var popup_15421be5866146a19ae54f1b4b7fa3cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72ae4131aa124b288a12582a966f3d35 = $(`<div id="html_72ae4131aa124b288a12582a966f3d35" style="width: 100.0%; height: 100.0%;">33104</div>`)[0];
+            popup_15421be5866146a19ae54f1b4b7fa3cd.setContent(html_72ae4131aa124b288a12582a966f3d35);
+        
+
+        marker_90ddbceb1a4f444f83bc75546fc78453.bindPopup(popup_15421be5866146a19ae54f1b4b7fa3cd)
+        ;
+
+        
+    
+    
+            marker_90ddbceb1a4f444f83bc75546fc78453.bindTooltip(
+                `<div>
+                     2nd St at Townsend St - Coming Soon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de54c4df85fd45548982ad9f8fb83657 = L.marker(
+                [37.771058000000004, -122.402717],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_6e5c0280d9d44479a56d8537d7ceacac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_de54c4df85fd45548982ad9f8fb83657.setIcon(icon_6e5c0280d9d44479a56d8537d7ceacac);
+        
+    
+        var popup_a5297bdcb48d429ab7eec7cdac122498 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_216397f3c1b24c0eba34bb2bf7c7dcc8 = $(`<div id="html_216397f3c1b24c0eba34bb2bf7c7dcc8" style="width: 100.0%; height: 100.0%;">31807</div>`)[0];
+            popup_a5297bdcb48d429ab7eec7cdac122498.setContent(html_216397f3c1b24c0eba34bb2bf7c7dcc8);
+        
+
+        marker_de54c4df85fd45548982ad9f8fb83657.bindPopup(popup_a5297bdcb48d429ab7eec7cdac122498)
+        ;
+
+        
+    
+    
+            marker_de54c4df85fd45548982ad9f8fb83657.bindTooltip(
+                `<div>
+                     Townsend St at 7th St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94b9043b01214fd0adc5a626621e105c = L.marker(
+                [37.7810737, -122.4117382],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_fb1f963b13824ca68673c0eab90721bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_94b9043b01214fd0adc5a626621e105c.setIcon(icon_fb1f963b13824ca68673c0eab90721bd);
+        
+    
+        var popup_ccdfd0716e7a4ba598584550657a6522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc431e0e74d44579889cb961af89dc46 = $(`<div id="html_dc431e0e74d44579889cb961af89dc46" style="width: 100.0%; height: 100.0%;">31324</div>`)[0];
+            popup_ccdfd0716e7a4ba598584550657a6522.setContent(html_dc431e0e74d44579889cb961af89dc46);
+        
+
+        marker_94b9043b01214fd0adc5a626621e105c.bindPopup(popup_ccdfd0716e7a4ba598584550657a6522)
+        ;
+
+        
+    
+    
+            marker_94b9043b01214fd0adc5a626621e105c.bindTooltip(
+                `<div>
+                     Civic Center/UN Plaza BART Station (Market St at McAllister St)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1abb26ec4b394d2996f3edc44c41a03b = L.marker(
+                [37.7880593, -122.39186480000001],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_0f60d32747bb40dd88c6079fa576676a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1abb26ec4b394d2996f3edc44c41a03b.setIcon(icon_0f60d32747bb40dd88c6079fa576676a);
+        
+    
+        var popup_b8728976795f452fb9f75059616ac27e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63a0fdf903504dd1906edca9e137cb89 = $(`<div id="html_63a0fdf903504dd1906edca9e137cb89" style="width: 100.0%; height: 100.0%;">30114</div>`)[0];
+            popup_b8728976795f452fb9f75059616ac27e.setContent(html_63a0fdf903504dd1906edca9e137cb89);
+        
+
+        marker_1abb26ec4b394d2996f3edc44c41a03b.bindPopup(popup_b8728976795f452fb9f75059616ac27e)
+        ;
+
+        
+    
+    
+            marker_1abb26ec4b394d2996f3edc44c41a03b.bindTooltip(
+                `<div>
+                     Beale St at Harrison St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d14a2e8864f74aeb8da061e1b24baae2 = L.marker(
+                [37.791464000000005, -122.391034],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_f3ce148f392b4a47b410f6abb4204b0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d14a2e8864f74aeb8da061e1b24baae2.setIcon(icon_f3ce148f392b4a47b410f6abb4204b0f);
+        
+    
+        var popup_4eadf7b54b734f02985605614f3cf3a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f70a23bbd3742ac885f7dee29186487 = $(`<div id="html_4f70a23bbd3742ac885f7dee29186487" style="width: 100.0%; height: 100.0%;">28745</div>`)[0];
+            popup_4eadf7b54b734f02985605614f3cf3a2.setContent(html_4f70a23bbd3742ac885f7dee29186487);
+        
+
+        marker_d14a2e8864f74aeb8da061e1b24baae2.bindPopup(popup_4eadf7b54b734f02985605614f3cf3a2)
+        ;
+
+        
+    
+    
+            marker_d14a2e8864f74aeb8da061e1b24baae2.bindTooltip(
+                `<div>
+                     The Embarcadero at Steuart St
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25cd12adedd643f8ba4f490ee92b589c = L.marker(
+                [37.770407399999996, -122.39119840000002],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_9160cf00c9094034816a56b125d2312a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_25cd12adedd643f8ba4f490ee92b589c.setIcon(icon_9160cf00c9094034816a56b125d2312a);
+        
+    
+        var popup_bac61e64e4874744b7ae1a891a7d02aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f73110e47fea47b6ae11510ad385696f = $(`<div id="html_f73110e47fea47b6ae11510ad385696f" style="width: 100.0%; height: 100.0%;">28566</div>`)[0];
+            popup_bac61e64e4874744b7ae1a891a7d02aa.setContent(html_f73110e47fea47b6ae11510ad385696f);
+        
+
+        marker_25cd12adedd643f8ba4f490ee92b589c.bindPopup(popup_bac61e64e4874744b7ae1a891a7d02aa)
+        ;
+
+        
+    
+    
+            marker_25cd12adedd643f8ba4f490ee92b589c.bindTooltip(
+                `<div>
+                     4th St at Mission Bay Blvd S
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bafbd89fb774ca4b2f838b2a6620618 = L.marker(
+                [37.809012599999996, -122.2682473],
+                {}
+            ).addTo(map_ee4a97480f2d4a0ea9fb45828d968ba5);
+        
+    
+            var icon_fdb1528eb9fe46e3949f82cba820d48d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bicycle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5bafbd89fb774ca4b2f838b2a6620618.setIcon(icon_fdb1528eb9fe46e3949f82cba820d48d);
+        
+    
+        var popup_6098e6e370874c7a86f5cd1362d8e174 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e9db93d494d4f2fb3128f133e606bf0 = $(`<div id="html_0e9db93d494d4f2fb3128f133e606bf0" style="width: 100.0%; height: 100.0%;">27718</div>`)[0];
+            popup_6098e6e370874c7a86f5cd1362d8e174.setContent(html_0e9db93d494d4f2fb3128f133e606bf0);
+        
+
+        marker_5bafbd89fb774ca4b2f838b2a6620618.bindPopup(popup_6098e6e370874c7a86f5cd1362d8e174)
+        ;
+
+        
+    
+    
+            marker_5bafbd89fb774ca4b2f838b2a6620618.bindTooltip(
+                `<div>
+                     19th Street BART Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
